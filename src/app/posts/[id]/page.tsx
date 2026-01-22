@@ -16,5 +16,5 @@ export default function PostPage() {
   }, [params?.id]);
 
   if (!post) return <p>Cargando...</p>;
-  return <PostDetail post={post} />;
+  return <PostDetail post={post} />
 }
